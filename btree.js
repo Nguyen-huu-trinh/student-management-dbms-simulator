@@ -16,8 +16,6 @@ class BTree {
         let root = this.root;
 
         this.insertInternal(root, key, value);
-
-        // 🔥 nếu root bị tràn → split
         if (root.keys.length === 3) {
             let newRoot = new Node(false);
             newRoot.children.push(root);
@@ -46,8 +44,6 @@ class BTree {
             i++;
 
             this.insertInternal(node.children[i], key, value);
-
-            // 🔥 nếu child bị tràn → split
             if (node.children[i].keys.length === 3) {
                 this.splitChild(node, i);
             }
