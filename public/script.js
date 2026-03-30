@@ -49,6 +49,6 @@ async function load() {
     let t = await fetch("/btree");
     this.tree = await t.json();
 
-    console.log(this.tree); // 🔥 xem dữ liệu
+    console.log(this.tree); // xem dữ liệu
 }
 load();
