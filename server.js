@@ -63,7 +63,7 @@ app.post("/add", (req, res) => {
 app.get("/search", (req, res) => {
     const { keyword } = req.query;
 
-    // 🔴 Nếu không nhập gì
+    // Nếu không nhập gì
     if (!keyword) {
         return res.json({
             result: [],
@@ -72,7 +72,7 @@ app.get("/search", (req, res) => {
         });
     }
 
-    // 🔍 1. Tìm theo ID (B-Tree)
+    // 1. Tìm theo ID (B-Tree)
     let idIndex = idTree.search(idTree.root, keyword);
 
     if (idIndex !== null) {
@@ -83,7 +83,7 @@ app.get("/search", (req, res) => {
         });
     }
 
-    // 🔍 2. Tìm theo NAME (B-Tree)
+    //  2. Tìm theo NAME (B-Tree)
     let nameIndexes = nameTree.search(nameTree.root, keyword);
 
     if (nameIndexes !== null) {
@@ -98,7 +98,7 @@ app.get("/search", (req, res) => {
         });
     }
 
-    // 🔴 KHÔNG TÌM THẤY
+    //  KHÔNG TÌM THẤY
     return res.json({
         result: [],
         highlightKeys: [],
