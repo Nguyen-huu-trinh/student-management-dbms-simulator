@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SV01",
+    "name": "Nguyen Van A",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV04",
+    "name": "Pham Thi D",
+    "gender": "Nu"
+  },
+  {
+    "id": "SV02",
+    "name": "Le Thi B",
+    "gender": "Nu"
+  },
+  {
+    "id": "SV08",
+    "name": "Phan Thi H",
+    "gender": "Nu"
+  },
+  {
+    "id": "SV05",
+    "name": "Hoang Van E",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV03",
+    "name": "Tran Van C",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV09",
+    "name": "Nguyen Van I",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV07",
+    "name": "Vu Van G",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV06",
+    "name": "Do Thi F",
+    "gender": "Nu"
+  },
+  {
+    "id": "SV10",
+    "name": "Le Thi K",
+    "gender": "Nu"
+  },
+  {
+    "id": "SV11",
+    "name": "Dinh Van Huy",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV55",
+    "name": "Ngo Quoc Viet",
+    "gender": "Nam"
+  },
+  {
+    "id": "SV23",
+    "name": "Phan Thi Ai Linh",
+    "gender": "Nu"
+  }
+]
